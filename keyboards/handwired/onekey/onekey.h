@@ -19,7 +19,15 @@
 #include "quantum.h"
 
 #define LAYOUT( \
-    k00 \
+    k00, k01, k02 \
   ) { \
     { k00 }  \
 }
+
+const uint16_t keymaps[][3][3] = {
+ [0] = {
+   { KC_1, KC_2, KC_3 },
+   { KC_4, KC_5, KC_6 },
+   { KC_7, KC_8, KC_9 }
+ }
+};
