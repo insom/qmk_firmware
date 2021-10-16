@@ -1,0 +1,10 @@
+#pragma once
+
+#undef RGB_MATRIX_ENABLE
+
+#ifdef RGB_MATRIX_ENABLE
+#    define RGB_MATRIX_KEYPRESSES
+#endif
+
+#define RGBLIGHT_LAYERS
+#undef RGBLIGHT_ANIMATIONS
